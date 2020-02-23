@@ -1,0 +1,21 @@
+{
+  "name": "shantala-narayan-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "license": {
+    "software": "GNU GPLv3",
+    "content": "CC­BY­NC­SA 4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "sass": "node-sass --watch assets/styles/scss -o assets/styles",
+    "serve": "browser-sync start --server --files 'index.html'"
+  }
+}
