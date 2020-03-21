@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.dp {
+	max-height: 600px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
