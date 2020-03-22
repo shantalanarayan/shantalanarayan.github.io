@@ -76,6 +76,10 @@ input, select, textarea {
 	max-height: 600px;
 }
 
+.warning {
+	color: orangered;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3177,7 +3181,7 @@ input, select, textarea {
 			margin: 2.5rem 0 0 0;
 			padding: 0.5rem 0 0 4.5rem;
 			position: relative;
-			width: 50%;
+			width: 25%;
 		}
 
 			ul.feature-icons li:before {
@@ -3197,7 +3201,7 @@ input, select, textarea {
 				width: 3.25rem;
 			}
 
-			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
+			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2), ul.feature-icons li:nth-child(3), ul.feature-icons li:nth-child(4) {
 				margin-top: 0;
 			}
 
@@ -3208,7 +3212,7 @@ input, select, textarea {
 			}
 
 				ul.feature-icons li {
-					width: 100%;
+					width: 50%;
 				}
 
 					ul.feature-icons li:nth-child(2) {
